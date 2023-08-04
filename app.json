@@ -24,6 +24,9 @@
     "android": {
       "package": "com.songuyo.songuyo"
     },
-    "owner": "toluwagbemiga"
+    "owner": "toluwagbemiga",
+    "ios": {
+      "bundleIdentifier": "com.songuyo.songuyo"
+    }
   }
 }
