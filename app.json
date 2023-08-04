@@ -1,0 +1,29 @@
+{
+  "name": "Songuyo",
+  "version": "1.0.0",
+  "description": "An Ecommerce App",
+  "main": "index.js",
+  "scripts": {
+    "start": "react-native start",
+    "build": "react-native build",
+    "test": "jest"
+  },
+  "ios": {
+    "bundleIdentifier": "com.songuyo.songuyo",
+    "icon": "./src/assets/icon.png"
+  },
+  "android": {
+    "icon": "./src/assets/icon.png"
+  },
+  "expo": {
+    "extra": {
+      "eas": {
+        "projectId": "0ff6710c-3e9d-4a79-83ef-cff06a01f8e4"
+      }
+    },
+    "android": {
+      "package": "com.songuyo.songuyo"
+    },
+    "owner": "toluwagbemiga"
+  }
+}
